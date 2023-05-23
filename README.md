@@ -11,7 +11,7 @@ Desplegado en railway.app **(Front + Back + BD)**
 
 - localhost/login es el inicio y todo usuario no logueado es dirigido a esta ruta  
 - El usuario admin: (usuario: admin contraseña: adminpass) tiene acceso a crear nuevas actividades a través de las consultas y revisarlas  
-- El usuario user: (usuario: admin contraseña: adminpass) solo tiene acceso a crear nuevas actividades a través de las consultas  
+- El usuario user: (usuario: user contraseña: userpass) solo tiene acceso a crear nuevas actividades a través de las consultas  
 
 - Toda ruta no válida redirige a login
 
