@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const urlBase = process.env.URLBASE || "http://192.168.1.66:3001"
+const urlBase = "https://desafioconversorback-production.up.railway.app" // "http://192.168.1.66:3001"
 const customHeader = { headers: { 'Content-Type': 'application/json' } };
 
 const obtenerActividades = async () =>{
